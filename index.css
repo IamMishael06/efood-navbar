@@ -57,9 +57,27 @@ margin-right: 5px;
 .buttons a{
     color: #FFFFFF;
 }
+.button-mobile{
+    display: none;
+}
+.bars{
+    display: none;
+}
+.close-div{
+    display: none;
+}
 @media screen and  (max-width: 768px){
     .logo .mobile{
         display: none;
+    }
+    .button-mobile{
+        display: block;
+    }
+    .bars{
+        display: block;
+    }
+    .close-div{
+        display: block;
     }
     .fold{
         position: absolute;
